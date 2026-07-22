@@ -1,8 +1,7 @@
-import java.util.Arrays;
 
 class Solution {
     public int lengthOfLastWord(String s) {
-        Sting[] data=s.split(" ");
+        String[] data=s.split(" ");
         return data[data.length - 1].length();
     }
 }
