@@ -37,6 +37,6 @@ public class DecodeTheMessage {
         String key = "the quick brown fox jumps over the lazy dog";
         String message = "vkbs bs t suepuv";
 
-        System.out.prntln(decodeMessage(key, message));
+        System.out.println(decodeMessage(key, message));
     }
 }
