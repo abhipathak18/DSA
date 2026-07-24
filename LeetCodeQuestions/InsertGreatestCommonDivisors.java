@@ -39,7 +39,6 @@ public class InsertGreatestCommonDivisors {
         }
         return a;
     }
-
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val);
