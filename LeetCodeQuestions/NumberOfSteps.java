@@ -32,5 +32,5 @@ public class NumberOfSteps {
         System.out.println("Number of steps: " + result);
 
         sc.close();
-    
+    }
 }
