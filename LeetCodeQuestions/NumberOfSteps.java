@@ -29,7 +29,7 @@ public class NumberOfSteps {
         NumberOfSteps obj = new NumberOfSteps();
         int result = obj.numSteps(s);
 
-        System.out.println("Nmber of steps: " + result);
+        System.out.println("Number of steps: " + result);
 
         sc.close();
     }
