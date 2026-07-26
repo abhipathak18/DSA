@@ -53,7 +53,7 @@ public class MergeTwoSortedLists {
             head = head.next;
         }
         System.out.println();
-    }
+    
 
     public static void main(String[] args) {
 
