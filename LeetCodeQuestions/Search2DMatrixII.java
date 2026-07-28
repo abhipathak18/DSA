@@ -1,4 +1,4 @@
-public class Search2DMatrix {
+public class Search2DMatrixII {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;
@@ -17,7 +17,7 @@ public class Search2DMatrix {
     }
 
     public static void main(String[] args) {
-        Search2DMatrix obj = new Search2DMatrix();
+        Search2DMatrixII obj = new Search2DMatrixII();
 
         int[][] matrix = {
             {1, 4, 7, 11, 15},
