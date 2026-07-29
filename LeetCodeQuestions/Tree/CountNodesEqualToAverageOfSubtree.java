@@ -1,4 +1,3 @@
-// File: CountNodesEqualToAverageOfSubtree.java
 
 class TreeNode {
     int val;
@@ -55,7 +54,6 @@ public class CountNodesEqualToAverageOfSubtree {
         root.left.left = new TreeNode(0);
         root.left.right = new TreeNode(1);
         root.right.right = new TreeNode(6);
-
         CountNodesEqualToAverageOfSubtree obj =
                 new CountNodesEqualToAverageOfSubtree();
 
