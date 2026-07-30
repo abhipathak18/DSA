@@ -33,7 +33,6 @@ public class MaximumNumberOfBalloons {
 
         System.out.println("Input: " + text2);
         System.out.println("Output: " + maxNumberOfBalloons(text2));
-
         System.out.println();
 
         System.out.println("Input: " + text3);
