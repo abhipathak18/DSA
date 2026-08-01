@@ -15,6 +15,7 @@ public class MinimumNumberOfPushesToTypeWordII {
 
         int minimumPushes = 0;
         int assignedLetters = 0;
+
         // Assign lowest push counts to highest frequencies
         for (int i = 25; i >= 0; i--) {
             if (frequency[i] == 0) {
