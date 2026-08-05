@@ -22,7 +22,6 @@ public class SplitStringsBySeparator {
                 result.add(currentWord.toString());
             }
         }
-
         return result;
     }
     public static void main(String[] args) {
