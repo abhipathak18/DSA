@@ -25,7 +25,6 @@ public class SplitStringsBySeparator {
 
         return result;
     }
-
     public static void main(String[] args) {
         SplitStringsBySeparator splitter = new SplitStringsBySeparator();
 
