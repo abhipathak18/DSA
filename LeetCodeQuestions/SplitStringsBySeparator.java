@@ -5,10 +5,8 @@ public class SplitStringsBySeparator {
 
     public List<String> splitWordsBySeparator(List<String> words, char separator) {
         List<String> result = new ArrayList<>();
-
         for (String word : words) {
             StringBuilder currentWord = new StringBuilder();
-
             for (char ch : word.toCharArray()) {
                 if (ch == separator) {
                     if (currentWord.length() > 0) {
