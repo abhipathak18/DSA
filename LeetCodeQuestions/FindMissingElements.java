@@ -21,15 +21,11 @@ public class FindMissingElements {
                 ans.add(i);
             }
         }
-
         return ans;
     }
-
     public static void main(String[] args) {
         int[] nums = {1, 4, 2, 5};
-
         List<Integer> result = findMissingElements(nums);
-
         System.out.println(result);
     }
 }
