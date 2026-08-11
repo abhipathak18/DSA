@@ -1,9 +1,7 @@
 import java.util.HashSet;
 
 public class MissingInteger {
-
     public static int missingInteger(int[] nums) {
-
         // Step 1: Start sum with first element
         int sum = nums[0];
 
@@ -23,12 +21,10 @@ public class MissingInteger {
         for (int num : nums) {
             set.add(num);
         }
-
         // Step 4: Find smallest missing number
         while (set.contains(sum)) {
             sum++;
         }
-
         return sum;
     }
 
@@ -37,7 +33,6 @@ public class MissingInteger {
         int[] nums = {3, 4, 5, 1, 12, 14, 13};
 
         int answer = missingInteger(nums);
-
         System.out.println(answer);
     }
 }
