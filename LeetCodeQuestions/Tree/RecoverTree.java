@@ -21,14 +21,11 @@ public class RecoverTree {
         first.val = second.val;
         second.val = temp;
     }
-
     private void inorder(TreeNode root) {
         if (root == null) {
             return;
         }
-
         inorder(root.left);
-
         if (prev != null && prev.val > root.val) {
             if (first == null) {
                 first = prev;
@@ -41,7 +38,6 @@ public class RecoverTree {
 
     public static void main(String[] args) {
         RecoverTree solution = new RecoverTree();
-
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(1);
         root.right = new TreeNode(4);
