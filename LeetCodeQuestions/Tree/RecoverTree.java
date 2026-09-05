@@ -35,9 +35,7 @@ public class RecoverTree {
             }
             second = root;
         }
-
         prev = root;
-
         inorder(root.right);
     }
 
