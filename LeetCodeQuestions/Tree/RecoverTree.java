@@ -42,9 +42,7 @@ public class RecoverTree {
         root.left = new TreeNode(1);
         root.right = new TreeNode(4);
         root.right.left = new TreeNode(2);
-
         solution.recoverTree(root);
-
         System.out.println("Tree recovered!");
     }
 }
