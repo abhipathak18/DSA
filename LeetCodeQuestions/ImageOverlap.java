@@ -41,10 +41,8 @@ public class ImageOverlap {
                 ans = Math.max(ans, count);
             }
         }
-
         return ans;
     }
-
     public static void main(String[] args) {
 
         int[][] img1 = {
@@ -52,7 +50,6 @@ public class ImageOverlap {
             {0, 1, 0},
             {0, 1, 0}
         };
-
         int[][] img2 = {
             {0, 0, 0},
             {0, 1, 1},
