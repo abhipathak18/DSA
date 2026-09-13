@@ -6,6 +6,7 @@ public class ImageOverlap {
 
         int n = img1.length;
 
+        // Store coordinates of 1s in both images
         List<int[]> ones1 = new ArrayList<>();
         List<int[]> ones2 = new ArrayList<>();
 
