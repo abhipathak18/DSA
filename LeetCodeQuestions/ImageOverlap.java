@@ -22,10 +22,12 @@ public class ImageOverlap {
             }
         }
 
+        // Map to count how many times each translation occurs
         Map<String, Integer> map = new HashMap<>();
 
         int ans = 0;
 
+        // Compare every 1 in img1 with every 1 in img2
         for (int[] p1 : ones1) {
             for (int[] p2 : ones2) {
 
@@ -41,8 +43,10 @@ public class ImageOverlap {
                 ans = Math.max(ans, count);
             }
         }
+
         return ans;
     }
+
     public static void main(String[] args) {
 
         int[][] img1 = {
@@ -50,6 +54,7 @@ public class ImageOverlap {
             {0, 1, 0},
             {0, 1, 0}
         };
+
         int[][] img2 = {
             {0, 0, 0},
             {0, 1, 1},
@@ -57,6 +62,7 @@ public class ImageOverlap {
         };
 
         int result = largestOverlap(img1, img2);
+
         System.out.println("Maximum Overlap = " + result);
     }
 }
