@@ -63,7 +63,6 @@ public class ImageOverlap {
         };
 
         int result = largestOverlap(img1, img2);
-
         System.out.println("Maximum Overlap = " + result);
     }
 }
