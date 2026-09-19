@@ -6,7 +6,6 @@ public class PartitionList {
 
         ListNode() {
         }
-
         ListNode(int val) {
             this.val = val;
         }
