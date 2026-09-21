@@ -30,7 +30,6 @@ public class FindXValueOfArrayI {
 
             dp = next;
         }
-
         return ans;
     }
 
