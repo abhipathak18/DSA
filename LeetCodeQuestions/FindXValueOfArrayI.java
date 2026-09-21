@@ -22,12 +22,10 @@ public class FindXValueOfArrayI {
                 int newRem = (int) ((long) r * rem % k);
                 next[newRem] += dp[r];
             }
-
             // Add current subarrays to answer
             for (int r = 0; r < k; r++) {
                 ans[r] += next[r];
             }
-
             dp = next;
         }
         return ans;
