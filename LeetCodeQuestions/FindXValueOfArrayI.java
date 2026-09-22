@@ -13,7 +13,6 @@ public class FindXValueOfArrayI {
             int rem = num % k;
 
             long[] next = new long[k];
-
             // Subarray containing only the current element
             next[rem] = 1;
 
