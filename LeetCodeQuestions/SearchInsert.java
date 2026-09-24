@@ -1,12 +1,10 @@
 public class SearchInsert {
 
     public static int searchInsert(int[] nums, int target) {
-
         int left = 0;
         int right = nums.length - 1;
 
         while (left <= right) {
-
             int mid = left + (right - left) / 2;
 
             if (nums[mid] == target) {
@@ -29,7 +27,6 @@ public class SearchInsert {
         int target = 5;
 
         int answer = searchInsert(nums, target);
-
         System.out.println("Answer = " + answer);
     }
 }
