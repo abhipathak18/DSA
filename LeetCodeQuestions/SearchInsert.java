@@ -17,10 +17,8 @@ public class SearchInsert {
                 right = mid - 1;
             }
         }
-
         return left;
     }
-
     public static void main(String[] args) {
 
         int[] nums = {1, 3, 5, 6};
