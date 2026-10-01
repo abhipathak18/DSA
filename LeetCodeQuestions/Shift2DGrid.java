@@ -6,7 +6,6 @@ public class Shift2DGrid {
         int m = grid.length;
         int n = grid[0].length;
         int total = m * n;
-
         k %= total;
         int[][] shifted = new int[m][n];
 
