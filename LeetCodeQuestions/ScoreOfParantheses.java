@@ -8,14 +8,9 @@ public class ScoreOfParantheses {
 
         for (char c : s.toCharArray()) {
             if (c == '(') {
-                // Push the current score to save the context of the outer layer
                 stack.push(currentScore);
-                // Reset score for the inner layer
                 currentScore = 0;
             } else {
-                // When meeting ')', calculate the score of the completed inner layer
-                // If currentScore is 0, it means it was a primitive "()", which scores 1.
-                // Otherwise, it is a nested structure like "(A)", which scores 2 * A.
                 currentScore = stack.pop() + Math.max(2 * currentScore, 1);
             }
         }
@@ -23,7 +18,6 @@ public class ScoreOfParantheses {
         return currentScore;
     }
 
-    // Main method added to allow execution in VS Code
     public static void main(String[] args) {
         ScoreOfParantheses solution = new ScoreOfParantheses();
 
